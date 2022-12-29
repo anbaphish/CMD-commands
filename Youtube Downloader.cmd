@@ -9,7 +9,7 @@ IF %bool%==y (youtube-dl -x --audio-format mp3 %input%  && exit) ELSE (echo "ent
 
 youtube-dl -F %input% 
 
-echo input format (Audio + video): 
+echo input format (Video+Audio): 
 
 set /p format= Enter: 
 
